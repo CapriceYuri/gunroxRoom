@@ -1190,31 +1190,31 @@ function checkPerk() {
         if (this.id == 'perk-health') {
             hitpoint += 20;
             hitpointpoints.textContent = hitpoint;
-            regen = + 2;
+            regen += 2;
             hpregenpoints.textContent = regen;
         }
         if (this.id == 'perk-xhealth') {
             hitpoint += 30;
             hitpointpoints.textContent = hitpoint;
-            regen = + 3;
+            regen += 3;
             hpregenpoints.textContent = regen;
         }
         if (this.id == 'perk-xxhealth') {
             hitpoint += 40;
             hitpointpoints.textContent = hitpoint;
-            regen = + 4;
+            regen += 4;
             hpregenpoints.textContent = regen;
         }
         if (this.id == 'perk-survivor') {
             hitpoint += 50;
             hitpointpoints.textContent = hitpoint;
-            regen = + 5;
+            regen += 5;
             hpregenpoints.textContent = regen;
         }
         if (this.id == 'perk-xsurvivor') {
             hitpoint += 100;
             hitpointpoints.textContent = hitpoint;
-            regen = + 10;
+            regen +=  10;
             hpregenpoints.textContent = regen;
         }
         if (this.id == 'perk-endu') {
